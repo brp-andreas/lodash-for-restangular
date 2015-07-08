@@ -1,0 +1,20 @@
+{
+  "name": "lodash-for-restangular",
+  "version": "1.0.0",
+  "authors": [
+    "Andreas Lindberg <andreas.lindberg@brpsystems.se>"
+  ],
+  "main": "./lodash.custom.js",
+  "moduleType": [
+    "globals",
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

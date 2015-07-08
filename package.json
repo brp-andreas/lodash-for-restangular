@@ -1,0 +1,18 @@
+{
+  "name": "lodash-for-restangular",
+  "version": "1.0.0",
+  "description": "Lodash with minimal methods needed for restangular",
+  "main": "./lodash.custom.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andreas Lindberg <andreas.lindberg@brpsystems.se>",
+  "license": "ISC",
+  "private": true,
+  "devDependencies": {
+    "lodash-cli": "^3.10.0"
+  },
+  "scripts": {
+    "build": "lodash strict include=bind,contains,defaults,each,every,extend,find,has,initial,isArray,isBoolean,isEmpty,isFunction,isNumber,isObject,isUndefined,isNull,keys,last,map,omit,pick,reduce,union,values"
+  }
+}
